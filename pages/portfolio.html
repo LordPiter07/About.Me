@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prociono&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+
+        <!-- Nav con Bootstrap-->
+
+        <div class="row gx-0 align-self-center nav navport">
+
+            <div class="col-6 align-self-center navImg">
+                <div>
+                    <img src="../images/logo-nav-removebg.png" alt="Logo" width="130" height="70" class="d-inline-block align-text-top"> 
+                </div>  
+            </div>
+
+            <nav class="navbar navbar-expand-lg col-6 justify-content-center">
+                <div class="align-self-center float-end navItem">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./hobbies.html">HOBBIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">ABOUT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+    </header>
+    <main class="mainPort">
+
+        <div class="headPort">
+            <h1>Proyectos</h1>
+            <p>En esta oportunidad decidi compartir dos de mis proyectos mas amplios y que en su momento me fueron muy desafiantes, ambos presentados como proyectos finales para la aprobacion de los cursos de JavaScript y ReactJs respectivamente.</p>
+        </div>
+
+        <!-- Tienda padel, dietetica c/carrito. Contar con que tecnologias se hicieron-->
+
+        <section class="sectionPort1">
+            <div class="row gx-0">
+                <div class="col-6 imgPort1">
+                    <img src="../images/tienda-padel.png" class="img-fluid" alt="tienda de padel">
+                </div>
+                <div class="col-6 pSec1">
+                    <h2>Tienda de Padel</h2>
+                    <p>Nacio como proyecto final para el curso de ReactJs. Si bien Esteticamente no es de lo mas legible, maquetado con HTML basado en bootstrap, se destaca su funcionalidad y dinamismo. Tiene configurado una conexion a base de datos Cloud Firestore, permitiendo actualizar facilmente la lista de productos a traves de un archivo Json, filtrar por productos y almacenar los datos de los pedidos bajo ordenes identificados con ID unicos. Se encuentra completamente funcional.
+                    Todo el detalle del codigo se puede consultar en mis repositorios de GITHUB. </p>
+                    <a href="https://tienda-de-padel.web.app" target="_blank">https://tienda-de-padel.web.app/</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sectionPort2">
+            <div class="row gx-0">
+                <div class="col-6 pSec2">
+                    <h2>Dietetica Ecommerce</h2>
+                    <p>Proyecto final presentado para el curso de JavaScript. Idea de Ecommerce, donde se cuenta con un catalogo de productos los cuales se pueden ir agregando al carrito y simular una compra. El mismo fue maquetado con HTML, estilizado con CSS, procesado a traves de SASS y toda la funcionalidad del carrito, realizada con vanilla JavaScript.
+                    Todo el codigo puede ser consultado en mi pagina de GITHUB.</p>
+                    <a href="https://lordpiter07.github.io/Tienda_online" target="_blank"> https://lordpiter07.github.io/Tienda_online/</a>
+                </div>
+                <div class="col-6 imgPort2">
+                    <img src="../images/dietetica.png" class="img-fluid" alt="tienda dietetica">
+                </div>
+            </div>
+        </section>
+
+    <!-- Bonus track: Ta Te Max! -->
+        <section class="sectionPort3">
+            <div>
+                <h3>Bonus track!</h3>
+                <p>El clasico juego  mundialmente conocido como "Tic Tac Toe", realizado con una estructura muy simple, se diseño con el objetivo de investigar y poner en practica metodos de CSS un poco mas avanzados, espero te guste!</p>
+                <a href="https://lordpiter07.github.io/TaTeTi-MAX/" target="_blank">JUGAR</a>
+            </div>
+            <div class="imgPort3">
+                <img src="../images/ta.te.ti.jpg" class="img-fluid" alt="juego tic tac toe">
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        
+        <div class="icon">
+            <svg height="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="2" fill="none"></circle>
+            </svg>
+            <a href="https://twitter.com/maxiblanco08" target="_blank">
+                <i class='bx bxl-twitter bx-md'></i>
+            </a>     
+        </div>
+        <div class="icon">
+            <svg height="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="2" fill="none"></circle>
+            </svg>
+            <a href="https://www.linkedin.com/in/maximiliano-blanco-programador08/" target="_blank">
+                <i class='bx bxl-linkedin bx-md' ></i>
+            </a>        
+        </div>
+        <div class="icon">
+            <svg height="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="2" fill="none"></circle>
+            </svg>
+            <a href="https://github.com/LordPiter07" target="_blank">
+                <i class='bx bxl-github bx-md'></i>
+            </a>           
+        </div>
+        <div class="icon">
+            <svg height="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="2" fill="none"></circle>
+            </svg>
+            <a href="https://www.instagram.com/maxiblanco3/" target="_blank">
+                <i class="bx bxl-instagram bx-md"></i>
+            </a>
+        </div>  
+
+    </footer>
+
+</body>
+</html>

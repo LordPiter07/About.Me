@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --color: #7DB9B6;
+    --cport: #FFFBF5;
+}
+
+
+
+/* Navbar */
+
+.nav {
+    background-color: var(--color);
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Index */
+
+/* Seccion 1 */
+.section1 { 
+    background-color: var(--color);
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    flex-wrap: nowrap;
+    font-family: 'Prociono', serif;
+    color: black;
+}
+
+.h1Index {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.section1 p {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.section1 h3 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.divIntro {
+    padding-left: 80px;
+}
+
+.btnIndex {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+}
+
+.divIntro button {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.divIntro button:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.divIntro button a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.imgIndex{
+    text-align: center;
+}
+
+/* Seccion 2 */
+
+.section2 {
+    height: 90vh;
+    text-align: center;
+    padding: 80px;
+    background: #EDE9D5;
+    font-family: 'Prociono', serif;
+    color: black;
+}
+
+.s2Index {
+    background: white;
+    padding: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.s2Index h2 {
+    padding: 10px;
+}
+
+
+/* Portfolio */
+
+.navport {
+    background:var(--cport) ;
+}
+
+.mainPort {
+    font-family: 'Prociono', serif;
+    color: black;
+}
+
+.headPort {
+    padding: 80px 0 20px 30px;
+    background: var(--cport);
+}
+
+.headPort h1{
+    text-decoration: 2px black underline;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.sectionPort1 {
+    padding: 30px 30px 100px 25px;
+    background: var(--cport);
+}
+
+.pSec1 {
+    padding-left: 30px;
+}
+
+.pSec1 h2 {
+    padding: 40px 0 40px 0;
+}
+
+.pSec1 p {
+    padding-bottom: 30px;
+}
+
+.sectionPort2 {
+    padding: 50px 5px 80px 10px;
+    background: #F1DBBF;
+}
+
+.pSec2 {
+    padding: 0 30px 0 30px;
+}
+
+.pSec2 h2 {
+    padding: 40px 0 40px 0;
+}
+
+.pSec2 p {
+    padding-bottom: 30px;
+}
+
+.imgPort1 img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.imgPort2 img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.sectionPort3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.imgPort3{
+    padding: 30px 0 80px 0;
+}
+
+.sectionPort3 p{
+    padding: 0 90px 0 90px;
+}
+
+.imgPort3 img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Hobbies */
+
+.navH {
+    background: #E4DCCF;
+}
+
+.mainHobbies { 
+    background: #E4DCCF;
+    font-family: 'Prociono', serif;
+    color: black;
+}
+
+.card {
+    padding: 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.sectionHobbie1 {
+    padding: 40px 60px 40px 60px;
+}
+
+.cardHobbie1 {
+    margin-top: 20px;
+    
+}
+
+.sectionHobbie2 {
+    padding: 0 60px 60px 60px;
+}
+
+.cardHobbie2 {
+    margin-top: 20px;
+}
+
+
+/* About */
+
+.navAb{
+    background:#FCFFE7 ;
+}
+
+.about {
+    padding: 80px 35px 80px 35px;
+    background:#FCFFE7 ;
+}
+
+.about h1 {
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.about p {
+    padding: 10px 0 10px 0;
+}
+
+
+/* Footer general */
+
+footer {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 25px;
+    border-radius: 50%;
+    transition: all .8s;
+}
+
+.icon:hover {
+    background-color: #19A7CE;
+    box-shadow: 0 0 20 px #19A7CE;
+}
+
+.icon:hover:nth-child(2) {
+    background-color: #2F58CD;
+    box-shadow: 0 0 20 px #2F58CD;
+}
+
+.icon:hover:nth-child(3) {
+    background-color: #4d455da8;
+    box-shadow: 0 0 20 px #4d455dab;
+}
+
+.icon:hover:nth-child(4) {
+    background-color: #E90064;
+    box-shadow: 0 0 20 px #E90064;
+}
+
+.icon i {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .6s ease-in-out;
+}
+
+.icon:hover circle { 
+    stroke-dasharray: 220;
+}
+
