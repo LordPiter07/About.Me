@@ -10,7 +10,6 @@
 }
 
 
-
 /* Navbar */
 
 .nav {
@@ -27,7 +26,7 @@
     width: auto;
     height: auto;
     padding-top: 10px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     font-family: 'Prociono', serif;
     color: black;
 }
@@ -84,7 +83,7 @@
 /* Seccion 2 */
 
 .section2 {
-    height: 90vh;
+    height: auto;
     text-align: center;
     padding: 80px;
     background: #EDE9D5;
@@ -231,12 +230,13 @@
 /* About */
 
 .navAb{
-    background:#FCFFE7 ;
+    background:#F9F5EB ;
 }
 
 .about {
-    padding: 80px 35px 80px 35px;
-    background:#FCFFE7 ;
+    padding: 80px 50px 80px 50px;
+    background:#F9F5EB ;
+    color: black;
 }
 
 .about h1 {
@@ -246,6 +246,7 @@
 
 .about p {
     padding: 10px 0 10px 0;
+    font-size: 15px;
 }
 
 
